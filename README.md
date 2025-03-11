@@ -6,5 +6,6 @@
 - [TwoSum](https://github.com/your-username/LeetCode-Solutions/blob/main/C:/Users/Gupta Ji/Documents/GitHub/LeetCode-Solutions\Easy\TwoSum.java)
 
 ## Medium
+- [ThreeSum](https://github.com/your-username/LeetCode-Solutions/blob/main/C:/Users/Gupta Ji/Documents/GitHub/LeetCode-Solutions\medium\ThreeSum.java)
 
 ## Hard
