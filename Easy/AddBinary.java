@@ -24,6 +24,6 @@ public class AddBinary {
     }
 
     public static void main(String[] args) {
-        System.out.println(addBinary("1011", "1101")); 
+        System.out.println(addBinary("101", "1101")); 
     }
 }
