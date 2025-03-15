@@ -1,13 +1,21 @@
-public class PlusOne {
-    public static void plusOne(int digit[]){
-        int sum =0 ;
-        for(int i=0 ; i<digit.length ;i++){
-            sum+=Math.pow(10, i)*digit[digit.length-1-i];
+public class PlusOne{
+    public static int[] plusOne(int arr[]){
+        for(int i=arr.length-1 ;i>=0 ;i--){
+            if(arr[i]<9){
+                arr[i]= arr[i]+1;
+                return arr;
+            }
+            arr[i]=0;
         }
-        System.out.println(sum+1);
+        int newsize[] = new int[arr.length+1];
+        newsize[0]=1;
+        return newsize;
     }
     public static void main(String[] args) {
-        int digit[] = {1,2,3};
-        plusOne(digit);
+        int arr[] ={9,9,9};
+       int arr2[]=plusOne(arr);
+       for(int i=0 ;i<arr2.length ;i++){
+        System.out.print(arr2[i]+" ");
+       } 
     }
 }
